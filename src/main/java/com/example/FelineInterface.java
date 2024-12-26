@@ -3,8 +3,8 @@ package com.example;
 import java.util.List;
 
 public interface FelineInterface {
-    public int getKittens();
+    int getKittens();
 
-    public List<String> eatMeat() throws Exception;
+    List<String> eatMeat() throws Exception;
 
 }
