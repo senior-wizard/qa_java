@@ -28,7 +28,7 @@ public class LionTest {
     }
 
     @Test
-    public void testGetKittens() throws Exception {
+    public void testGetKittens() {
         Mockito.when(felineInterface.getKittens()).thenReturn(1);
         assertEquals(1, lion.getKittens());
     }
