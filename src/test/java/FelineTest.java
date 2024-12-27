@@ -23,21 +23,21 @@ public class FelineTest {
     }
 
     @Test
-    public void TestGetFamily() {
+    public void testGetFamily() {
         String expectedResult = "Кошачьи";
         String actualResult = feline.getFamily();
         assertEquals(expectedResult, actualResult);
     }
 
     @Test
-    public void TestGetKittens() {
+    public void testGetKittens() {
         int expectedResult = 1;
         int actualResult = feline.getKittens();
         assertEquals(expectedResult, actualResult);
     }
 
     @Test
-    public void GetKittensTest() {
+    public void getKittensTest() {
         int expectedResult = 1;
         int actualResult = feline.getKittens(1);
         assertEquals(expectedResult, actualResult);
